@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TotalApp
 //
-//  Created by 木村充位 on 2021/02/15.
+//  Created by Jui Kimura on 2021/02/15.
 //
 
 import UIKit
