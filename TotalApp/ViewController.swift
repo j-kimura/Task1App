@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
-
     @IBOutlet private weak var textField1: UITextField!
     @IBOutlet private weak var textField2: UITextField!
     @IBOutlet private weak var textField3: UITextField!
