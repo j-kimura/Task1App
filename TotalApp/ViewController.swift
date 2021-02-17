@@ -13,20 +13,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet private weak var textField3: UITextField!
     @IBOutlet private weak var textField4: UITextField!
     @IBOutlet private weak var textField5: UITextField!
+
     @IBOutlet private weak var totalLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.textField1.keyboardType = UIKeyboardType.numberPad
-        self.textField2.keyboardType = UIKeyboardType.numberPad
-        self.textField3.keyboardType = UIKeyboardType.numberPad
-        self.textField4.keyboardType = UIKeyboardType.numberPad
-        self.textField5.keyboardType = UIKeyboardType.numberPad
-        textField1.delegate = self
-        textField2.delegate = self
-        textField3.delegate = self
-        textField4.delegate = self
-        textField5.delegate = self
+
+        textField1.keyboardType = .numberPad
+        textField2.keyboardType = .numberPad
+        textField3.keyboardType = .numberPad
+        textField4.keyboardType = .numberPad
+        textField5.keyboardType = .numberPad
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
